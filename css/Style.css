@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+html {
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    background-color: rgba(223, 214, 198, 0.6);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+body{
+    background-color: #DFD6C6;
+    background-image: url('./Bakgrunn3.png');
+    background-size:cover;
+   
+}
+.about-sofia{
+    background-color: #866E5A;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    justify-content:center;
+    top: 1270px;
+
+    display: flex;
+    flex-direction:column;
+    padding-left: 240px;
+    
+   
+    
+}
+
+main {
+    padding: 80px 0 0 0;
+}
+
+.note{
+    color: #DFD6C6;
+    font-family: 'Jost', sans-serif;
+    font-size: 50px;
+    margin: 5px;
+    padding-bottom: 10px;
+    transform: translate(-70px, 180px);
+    
+}
+
+header ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Jost', sans-serif;
+    color: #553F33;
+    font-size: 25px;
+    margin: 0 20px 0 0;
+}
+.photo{
+    width: 250px;
+    height: 370px;
+    border-radius: 38px;
+    border: #553F33 2px solid;  
+    transform: translate(-40px, 170px);
+
+}
+.info{
+    display: flex;
+    transform: translate(280px, -200px);
+    font-family:'Abel', sans-serif;
+    color: #DFD6C6;
+    font-size: 30px;
+    width: 900px;
+    
+
+}
+.all-img{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    
+    
+}
+.images{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+
+}
+.rosa{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.kald-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.grå{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.images-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+}
+.tan-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.baris-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.varm-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.images-3{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+}
+.blå-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.farger{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.farge-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.images-4{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+
+}
+.rosa{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.kald-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.grå{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.images-5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+}
+.tan-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.baris-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.varm-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.images-6{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    padding-top: 80px;
+
+}
+.blå-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.farger{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.farge-dame{
+    width: 350px;
+    height: 500px;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+}
+.Sale{
+    background-color: #866E5A;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    justify-content:center;
+    top: 2430px;
+}
+.sale-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0 0 0;
+}
+.varm-dame2{
+     width: 270px;
+    height: 380px;  
+    border:#DFD6C6 10px solid;
+}
+.tan-dame2{
+    width: 270px;
+   height: 380px;  
+   border:#DFD6C6 10px solid; 
+}
+.kald-dame2{
+    width: 270px;
+   height: 380px; 
+   border:#DFD6C6 10px solid;  
+}
+.baris-dame2{
+    width: 270px;
+   height: 380px; 
+   border:#DFD6C6 10px solid;  
+}
+.Pil{
+   width: 100px;
+}
+.Price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-top: 20px;
+
+    font-family:'Abel', sans-serif;
+    color: #DFD6C6;
+    font-size: 30px;
+}
+.prøverunde{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    
+
+    font-family:'Abel', sans-serif;
+    color: #DFD6C6;
+    font-size: 30px;
+}
