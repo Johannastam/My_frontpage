@@ -13,15 +13,18 @@ header {
     width: 100%;
     position: fixed;
     z-index: 100;
+
+ 
+
 }
 body{
-    background-color: #DFD6C6;
+    background-color: #EEE5D4;
     background-image: url('./Bakgrunn3.png');
     background-size:cover;
    
 }
 .about-sofia{
-    background-color: #866E5A;
+    background-color: #553F33;
     height: 600px;
     width: 100%;
     position: absolute;
@@ -41,7 +44,7 @@ main {
 }
 
 .note{
-    color: #DFD6C6;
+    color: #EEE5D4;
     font-family: 'Jost', sans-serif;
     font-size: 50px;
     margin: 5px;
@@ -58,6 +61,10 @@ header ul{
     color: #553F33;
     font-size: 25px;
     margin: 0 20px 0 0;
+    
+}
+header nav ul li:hover{
+    text-decoration:underline;
 }
 .photo{
     width: 250px;
@@ -71,7 +78,7 @@ header ul{
     display: flex;
     transform: translate(280px, -200px);
     font-family:'Abel', sans-serif;
-    color: #DFD6C6;
+    color: #EEE5D4;
     font-size: 30px;
     width: 900px;
     
@@ -87,10 +94,11 @@ header ul{
 .images{
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
     padding-top: 80px;
-
+    gap: 20px;
 
 }
 .rosa{
@@ -105,7 +113,7 @@ header ul{
     border-radius: 38px;
     border: #553F33 2px solid;
 }
-.grå{
+.gray{
     width: 350px;
     height: 500px;
     border-radius: 38px;
@@ -114,9 +122,11 @@ header ul{
 .images-2{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content:space-evenly;
-    padding-top: 80px;
+    padding-top: 20px;
+    gap: 20px;
 
 }
 .tan-dame{
@@ -140,12 +150,14 @@ header ul{
 .images-3{
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
-    padding-top: 80px;
+    padding-top: 20px;
+    gap: 20px;
 
 }
-.blå-dame{
+.blue-dame{
     width: 350px;
     height: 500px;
     border-radius: 38px;
@@ -166,9 +178,11 @@ header ul{
 .images-4{
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
-    padding-top: 80px;
+    padding-top: 20px;
+    gap: 20px;
 
 
 }
@@ -184,7 +198,7 @@ header ul{
     border-radius: 38px;
     border: #553F33 2px solid;
 }
-.grå{
+.gray{
     width: 350px;
     height: 500px;
     border-radius: 38px;
@@ -193,9 +207,11 @@ header ul{
 .images-5{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content:space-evenly;
-    padding-top: 80px;
+    padding-top: 20px;
+    gap: 20px;
 
 }
 .tan-dame{
@@ -219,12 +235,14 @@ header ul{
 .images-6{
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
     padding-top: 80px;
+    gap: 20px;
 
 }
-.blå-dame{
+.blue-dame{
     width: 350px;
     height: 500px;
     border-radius: 38px;
@@ -243,7 +261,7 @@ header ul{
     border: #553F33 2px solid;
 }
 .Sale{
-    background-color: #866E5A;
+    background-color: #553F33;
     height: 600px;
     width: 100%;
     position: absolute;
@@ -252,54 +270,160 @@ header ul{
 }
 .sale-img{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
     padding: 60px 0 0 0;
+    gap: 20px;
+}
+.sale-item p {
+    text-align: center;
+    font-family:'Abel', sans-serif;
+    color: #EEE5D4;
+    font-size: 30px;
 }
 .varm-dame2{
      width: 270px;
     height: 380px;  
-    border:#DFD6C6 10px solid;
+    border:#EEE5D4 10px solid;
 }
 .tan-dame2{
     width: 270px;
    height: 380px;  
-   border:#DFD6C6 10px solid; 
+   border:#EEE5D4 10px solid; 
 }
 .kald-dame2{
     width: 270px;
    height: 380px; 
-   border:#DFD6C6 10px solid;  
+   border:#EEE5D4 10px solid;  
 }
 .baris-dame2{
     width: 270px;
    height: 380px; 
-   border:#DFD6C6 10px solid;  
+   border:#EEE5D4 10px solid;  
 }
 .Pil{
    width: 100px;
 }
-.Price{
+.footer{
+    background-color: #553F33;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-evenly;
-    padding-top: 20px;
+    margin-top: 40px;
 
-    font-family:'Abel', sans-serif;
-    color: #DFD6C6;
-    font-size: 30px;
 }
-.prøverunde{
+.side-bar{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:space-around;
+}
+.medlem{
+    font-family:'Abel', sans-serif;
+    color: #EEE5D4;
+    font-size: 30px;
+    width: 450px;
+    padding: 30px;
+    
+}
+.dame-alene{
+    width: 270px;
+    height: 550px;
+    padding-top: 100px;
+}
+.mail{
+    background-color:#EEE5D4;
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+    font-family:'Abel', sans-serif;
+    color: #553F33;
+    font-size: 30px;
+    text-align: center;
+}
+.send{
+    background-color: #866E5A; 
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+
     
     
 
     font-family:'Abel', sans-serif;
-    color: #DFD6C6;
+    color:#EEE5D4;
     font-size: 30px;
+    text-align: center; 
+}
+.hjelp{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-between;
+
+    font-family:'Abel', sans-serif;
+    color:#EEE5D4;
+    font-size: 30px;
+    text-align:left; 
+    gap: 20px;
+    padding-top: 50px;
+}
+.burger{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 20px;
+}
+
+
+
+
+@media screen and (min-width:900px) {
+    .burger{
+         display: none;
+    }
+}
+@media screen and (max-width:900px){
+    header ul{
+        display: none;
+    }
+}
+@media screen and (max-width:1300px){
+     .about-sofia{
+        display: none;
+     }
+}
+@media screen and (max-width:1300px){
+    .kald-dame2{
+        display: none;
+    }
+    .baris-dame2{
+        display: none;
+    }
+    .name3{
+        display: none;
+    }
+    .name4{
+        display: none;
+    }
+    .price3{
+        display: none;
+    }
+    .price4{
+        display: none;
+    }
+    .images-4{
+        display: none;
+    }
+    .images-5{
+        display: none;
+    }
+    .images-6{
+        display: none;
+    }
 }
