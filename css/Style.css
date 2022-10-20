@@ -347,7 +347,7 @@ header nav ul li:hover{
     width: 100%;
     position: absolute;
     justify-content:center;
-    top: 3280px;
+    top: 1200px;
     flex-direction:column;
     
 }
@@ -380,13 +380,19 @@ header nav ul li:hover{
     color: #EEE5D4;
     font-family: 'Jost', sans-serif;
     font-size: 60px;
+    top: 2350px;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
     padding: 200px;
+    
 }
+
+
+
+
 
 @media screen and (min-width:900px) {
     .burger{
