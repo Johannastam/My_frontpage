@@ -14,31 +14,38 @@ header {
     position: fixed;
     z-index: 100;
 
- 
-
 }
+.logo{
+    padding-left: 20px;
+}
+
 body{
     background-color: #EEE5D4;
     background-image: url('./Bakgrunn3.png');
     background-size:cover;
    
 }
+
 .about-sofia{
+    display: flex;
     background-color: #553F33;
     height: 600px;
     width: 100%;
     position: absolute;
     justify-content:center;
-    top: 1270px;
-
-    display: flex;
+    top: 1200px;
     flex-direction:column;
-    padding-left: 240px;
-    
-   
-    
+    padding-left: 240px;   
 }
+.info{
+    display: flex;
+    transform: translate(280px, -200px);
+    font-family:'Abel', sans-serif;
+    color: #EEE5D4;
+    font-size: 30px;
+    width: 900px;
 
+}
 main {
     padding: 80px 0 0 0;
 }
@@ -52,7 +59,6 @@ main {
     transform: translate(-70px, 180px);
     
 }
-
 header ul{
     list-style:none;
     display: flex;
@@ -74,23 +80,6 @@ header nav ul li:hover{
     transform: translate(-40px, 170px);
 
 }
-.info{
-    display: flex;
-    transform: translate(280px, -200px);
-    font-family:'Abel', sans-serif;
-    color: #EEE5D4;
-    font-size: 30px;
-    width: 900px;
-    
-
-}
-.all-img{
-    display: flex;
-    flex-direction: column;
-    padding: 2px;
-    
-    
-}
 .images{
     display: flex;
     flex-direction:row;
@@ -106,6 +95,7 @@ header nav ul li:hover{
     height: 500px;
     border-radius: 38px;
     border: #553F33 2px solid;
+    
 }
 .kald-dame{
     width: 350px;
@@ -147,43 +137,14 @@ header nav ul li:hover{
     border-radius: 38px;
     border: #553F33 2px solid;
 }
-.images-3{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content:space-evenly;
-    padding-top: 20px;
-    gap: 20px;
-
-}
-.blue-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.farger{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.farge-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
 .images-4{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
-    padding-top: 20px;
+    padding-top: 650px;
     gap: 20px;
-
 
 }
 .rosa{
@@ -210,7 +171,7 @@ header nav ul li:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-evenly;
-    padding-top: 20px;
+    padding-top: 650px;
     gap: 20px;
 
 }
@@ -266,7 +227,9 @@ header nav ul li:hover{
     width: 100%;
     position: absolute;
     justify-content:center;
-    top: 2430px;
+    top: 2350px;
+    width: 100%;
+    height: auto;
 }
 .sale-img{
     display: flex;
@@ -312,6 +275,7 @@ header nav ul li:hover{
     align-items: center;
     justify-content:space-evenly;
     margin-top: 40px;
+    padding: 50px;
 
 }
 .side-bar{
@@ -374,11 +338,50 @@ header nav ul li:hover{
     padding-top: 50px;
 }
 .burger{
+    display: flex;
+    align-items: flex-end;
     width: 40px;
     height: 40px;
-    display: block;
-    margin: 20px;
+    margin: 30px;
 }
+.about-sofia2{
+    display: flex;
+    background-color: #553F33;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    justify-content:center;
+    top: 3280px;
+    flex-direction:column;
+    
+}
+.note2{
+    color: #EEE5D4;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    margin: 5px;
+    padding: 30px;
+    margin: auto;
+}
+.photo2{
+    width: 250px;
+    height: 370px;
+    border-radius: 38px;
+    border: #553F33 2px solid;  
+    margin: auto;
+}
+.readmore{
+    color: #EEE5D4;
+    font-family:'Abel', sans-serif;
+    font-size: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+
 
 
 
@@ -398,9 +401,28 @@ header nav ul li:hover{
         display: none;
      }
 }
+@media screen and (max-width:1000px){
+    .images-6{
+        display: none;
+    }
+    .images-5{
+        display: none;
+    }
+    .Sale{
+        display: none;
+    }
+    .dame-alene{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .hjelp{
+        display: none;
+    }
+}
 @media screen and (max-width:1300px){
     .kald-dame2{
-        display: none;
+        display:none;
     }
     .baris-dame2{
         display: none;
@@ -417,13 +439,9 @@ header nav ul li:hover{
     .price4{
         display: none;
     }
-    .images-4{
-        display: none;
-    }
-    .images-5{
-        display: none;
-    }
-    .images-6{
-        display: none;
+}
+@media screen and (min-width:1300px) {
+    .about-sofia2{
+         display: none;
     }
 }
