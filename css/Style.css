@@ -14,18 +14,14 @@ header {
     position: fixed;
     z-index: 100;
 
+ 
 }
-.logo{
-    padding-left: 20px;
-}
-
 body{
     background-color: #EEE5D4;
     background-image: url('./Bakgrunn3.png');
     background-size:cover;
    
 }
-
 .about-sofia{
     display: flex;
     background-color: #553F33;
@@ -83,9 +79,9 @@ header nav ul li:hover{
 .images{
     display: flex;
     flex-direction:row;
-    flex-wrap: wrap;
     align-items:center;
     justify-content:space-evenly;
+    flex-wrap: wrap;
     padding-top: 80px;
     gap: 20px;
 
@@ -137,7 +133,7 @@ header nav ul li:hover{
     border-radius: 38px;
     border: #553F33 2px solid;
 }
-.images-4{
+.images-3{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
@@ -380,11 +376,17 @@ header nav ul li:hover{
     padding: 30px;
 
 }
+.seeprices{
+    color: #EEE5D4;
+    font-family: 'Jost', sans-serif;
+    font-size: 60px;
 
-
-
-
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 200px;
+}
 
 @media screen and (min-width:900px) {
     .burger{
@@ -406,9 +408,6 @@ header nav ul li:hover{
         display: none;
     }
     .images-5{
-        display: none;
-    }
-    .Sale{
         display: none;
     }
     .dame-alene{
@@ -443,5 +442,15 @@ header nav ul li:hover{
 @media screen and (min-width:1300px) {
     .about-sofia2{
          display: none;
+    }
+}
+@media screen and (min-width:1200px){
+    .seeprices{
+        display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    .sale-img{
+        display: none;
     }
 }
