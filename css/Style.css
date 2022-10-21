@@ -415,7 +415,7 @@ header nav ul li:hover{
 @media screen and (max-width:1000px){
     .images-6{
         display: none;
-
+    }
     .dame-alene{
         display: none;
     }
