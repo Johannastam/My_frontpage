@@ -347,7 +347,7 @@ header nav ul li:hover{
     width: 100%;
     position: absolute;
     justify-content:center;
-    top: 1200px;
+    top: 2250px;
     flex-direction:column;
     
 }
@@ -369,7 +369,7 @@ header nav ul li:hover{
 .readmore{
     color: #EEE5D4;
     font-family:'Abel', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     margin: 5px;
     padding-bottom: 10px;
     margin: auto;
@@ -377,16 +377,19 @@ header nav ul li:hover{
 
 }
 .seeprices{
+    display: flex;
+    background-color: #553F33;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    justify-content:center;
+    top: 1560px;
+    padding-top: 250px;
     color: #EEE5D4;
     font-family: 'Jost', sans-serif;
     font-size: 60px;
-    top: 2350px;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-around;
-    padding: 200px;
+    
     
 }
 
