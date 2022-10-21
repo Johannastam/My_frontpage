@@ -383,7 +383,7 @@ header nav ul li:hover{
     width: 100%;
     position: absolute;
     justify-content:center;
-    top: 1560px;
+    top: 1570px;
     padding-top: 250px;
     color: #EEE5D4;
     font-family: 'Jost', sans-serif;
@@ -415,10 +415,7 @@ header nav ul li:hover{
 @media screen and (max-width:1000px){
     .images-6{
         display: none;
-    }
-    .images-5{
-        display: none;
-    }
+
     .dame-alene{
         display: none;
     }
