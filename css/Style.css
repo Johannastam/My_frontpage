@@ -70,12 +70,12 @@ header nav ul li:hover{
 }
 
 .product-freames{
-    max-width: 120rem;
+    max-width: 120px;
     width: 100%;
     display: flex;
     margin: 5rem auto;
     justify-content: space-between;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 
 .product-freame{
