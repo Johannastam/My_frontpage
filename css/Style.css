@@ -76,18 +76,19 @@ header nav ul li:hover{
     margin: 5rem auto;
     justify-content: space-between;
     flex-flow: row nowrap;
+    border-radius: 38px;
+    border: #553F33 2px solid;
+
 }
 
 .product-freame{
     width: 36rem;
     position: relative;
     height: 50rem;
-    
 }
 
-.product-freame img{
+.product-freame a{
     width: 100%;
-    
 }
 
 .photo{
@@ -121,26 +122,7 @@ header nav ul li:hover{
     color: #EEE5D4;
     font-size:s30px;
 }
-.varm-dame2{
-     width: 270px;
-    height: 380px;  
-    border:#EEE5D4 10px solid;
-}
-.tan-dame2{
-    width: 270px;
-   height: 380px;  
-   border:#EEE5D4 10px solid; 
-}
-.kald-dame2{
-    width: 270px;
-   height: 380px; 
-   border:#EEE5D4 10px solid;  
-}
-.baris-dame2{
-    width: 270px;
-   height: 380px; 
-   border:#EEE5D4 10px solid;  
-}
+
 .Pil{
    width: 100px;
 }
@@ -192,8 +174,7 @@ header nav ul li:hover{
     height: 60px;
     padding: 10px;
 
-    
-    
+
 
     font-family:'Abel', sans-serif;
     color:#EEE5D4;
