@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 html {
-    font-size: 20px;
+    font-size: 10px;
 }
 
 header {
@@ -68,154 +68,34 @@ header ul{
 header nav ul li:hover{
     text-decoration:underline;
 }
+
+.product-freames{
+    max-width: 120rem;
+    width: 100%;
+    display: flex;
+    margin: 5rem auto;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.product-freame{
+    width: 36rem;
+    position: relative;
+    height: 50rem;
+    
+}
+
+.product-freame img{
+    width: 100%;
+    
+}
+
 .photo{
     width: 250px;
     height: 370px;
     border-radius: 38px;
     border: #553F33 2px solid;  
     transform: translate(-40px, 170px);
-
-}
-.images{
-    display: flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    padding-top: 80px;
-    gap: 20px;
-
-}
-.rosa{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-    
-}
-.kald-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.gray{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.images-2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-evenly;
-    padding-top: 20px;
-    gap: 20px;
-
-}
-.tan-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.baris-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.varm-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.images-3{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content:space-evenly;
-    padding-top: 650px;
-    gap: 20px;
-
-}
-.rosa{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.kald-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.gray{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.images-5{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-evenly;
-    padding-top: 650px;
-    gap: 20px;
-
-}
-.tan-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.baris-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.varm-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.images-6{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content:space-evenly;
-    padding-top: 80px;
-    gap: 20px;
-
-}
-.blue-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.farger{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
-}
-.farge-dame{
-    width: 350px;
-    height: 500px;
-    border-radius: 38px;
-    border: #553F33 2px solid;
 }
 .Sale{
     background-color: #553F33;
@@ -239,7 +119,7 @@ header nav ul li:hover{
     text-align: center;
     font-family:'Abel', sans-serif;
     color: #EEE5D4;
-    font-size: 30px;
+    font-size:s30px;
 }
 .varm-dame2{
      width: 270px;
