@@ -4,6 +4,15 @@ html {
     font-size: 10px;
 }
 
+/* BAKGRUNN & HEADER */
+
+body{
+    background-color: #EEE5D4;
+    background-image: url('./Bakgrunn3.png');
+    background-size:cover;
+   
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -13,34 +22,15 @@ header {
     width: 100%;
     position: fixed;
     z-index: 100;
+    padding: 3rem;
+    top: 0%;
 
- 
 }
-body{
-    background-color: #EEE5D4;
-    background-image: url('./Bakgrunn3.png');
-    background-size:cover;
-   
-}
-.about-sofia{
-    display: flex;
-    background-color: #553F33;
-    height: 600px;
-    width: 100%;
-    position: absolute;
-    justify-content:center;
-    top: 1200px;
-    flex-direction:column;
-    padding-left: 240px;   
-}
-.info{
-    display: flex;
-    transform: translate(280px, -200px);
-    font-family:'Abel', sans-serif;
-    color: #EEE5D4;
-    font-size: 30px;
-    width: 900px;
 
+header img{
+    display: flex;
+    align-items: flex-start;
+    height: 10rem;
 }
  
 header ul{
@@ -50,70 +40,126 @@ header ul{
     font-family: 'Jost', sans-serif;
     color: #553F33;
     font-size: 25px;
-    margin: 0 20px 0 0;
+    margin: 0 2rem 0 0;
+
     
 }
 header nav ul li:hover{
     text-decoration:underline;
 }
 
-.product-freames{
-    max-width: 120px;
+
+/* BILDE GALLERI*/
+
+.product-frames{
+    max-width: 5000rem;
     width: 100%;
     display: flex;
-    margin: 5rem auto;
     justify-content: space-between;
-    flex-flow: row nowrap;
-    border-radius: 38px;
-    border: #553F33 2px solid;
+    flex-flow: row wrap;
+    padding: 10rem;
+    gap: 5rem;
+    margin-top: 10rem;
 
 }
 
-.product-freame{
+.product-frame{
     width: 36rem;
     position: relative;
     height: 50rem;
 }
 
-.product-freame a{
+.product-frame img{
     width: 100%;
+    border-radius: 38px;
+    border: #553F33 0.3rem solid;
 }
 
-.photo{
-    width: 250px;
-    height: 370px;
-    border-radius: 38px;
-    border: #553F33 2px solid;  
-    transform: translate(-40px, 170px);
-}
-.Sale{
-    background-color: #553F33;
-    height: 600px;
-    width: 100%;
-    position: absolute;
-    justify-content:center;
-    top: 2350px;
-    width: 100%;
-    height: auto;
-}
-.sale-img{
+/* ABOUT SOFIA*/
+
+.box-about-sofia{
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 60px 0 0 0;
-    gap: 20px;
+    align-content: center;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    background-color: #553F33;
+    padding: 3rem;  
 }
-.sale-item p {
-    text-align: center;
+.name_photo{
+    flex-flow: column;
+    margin: 3rem 0 3rem 5rem;
+    
+}
+
+.box-about-sofia img{
+    height: 50rem;
+    border-radius: 38px;
+
+}
+.box-about-sofia h4{
     font-family:'Abel', sans-serif;
     color: #EEE5D4;
-    font-size:s30px;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
-.Pil{
-   width: 100px;
+.box-about-sofia p{
+    font-family:'Abel', sans-serif;
+    color: #EEE5D4;
+    font-size: 30px;
+    margin: 15rem 10rem 0rem 10rem;
+    
 }
+
+
+
+
+
+/* PRIS DEL*/
+
+body section a:hover{
+    text-decoration:underline;
+    color: #EEE5D4;
+}
+
+.sale-cards{
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    background-color: #553F33;
+    padding: 3rem;
+}
+
+.sale-card img {
+    width: 90%;
+}
+
+.sale-item{
+    font-family:'Abel', sans-serif;
+    color:#EEE5D4;
+    font-size: 2.5rem;
+    padding: 1rem;
+    
+}
+
+.pil{
+    margin-top: 15rem;
+    
+}
+
+
+/* FOOTER*/
+
+footer section div p:hover{
+    text-decoration:underline;
+}
+
 .footer{
     background-color: #553F33;
     display: flex;
@@ -124,62 +170,59 @@ header nav ul li:hover{
     padding: 50px;
 
 }
+
 .side-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-around;
+    flex: 1;
 }
-.medlem{
+
+.side-bar h1{
     font-family:'Abel', sans-serif;
     color: #EEE5D4;
-    font-size: 30px;
-    width: 450px;
-    padding: 30px;
+    font-size: 3rem;
+    align-items: center;
+    margin: 0 0 5rem 3rem;
+    
+
+}
+.side-bar h2{
+    font-family:'Abel', sans-serif;
+    color:#553F33;
+    font-size: 3rem;
+    padding: 1.2rem;
+    margin: 2rem;
+    background-color:#EEE5D4;
+}
+.side-bar h3{
+    font-family:'Abel', sans-serif;
+    color: #EEE5D4;
+    font-size: 3.5rem;
+    padding:1.2rem;
+    margin: 2rem;
+    background-color: #000000;
     
 }
-.dame-alene{
-    width: 270px;
-    height: 550px;
-    padding-top: 100px;
-}
-.mail{
-    background-color:#EEE5D4;
-    width: 400px;
-    height: 60px;
-    padding: 10px;
-    margin-bottom: 20px;
 
-
-    font-family:'Abel', sans-serif;
-    color: #553F33;
-    font-size: 30px;
-    text-align: center;
-}
-.send{
-    background-color: #866E5A; 
-    width: 400px;
-    height: 60px;
-    padding: 10px;
-
-    font-family:'Abel', sans-serif;
-    color:#EEE5D4;
-    font-size: 30px;
-    text-align: center; 
-}
 .hjelp{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content:space-between;
-
     font-family:'Abel', sans-serif;
-    color:#EEE5D4;
-    font-size: 30px;
-    text-align:left; 
-    gap: 20px;
-    padding-top: 50px;
+    color: #EEE5D4;
+    font-size: 3rem;
+    flex: 1;
+    padding-left: 20rem;
+
 }
+
+.footer img{
+    height: 50rem;
+    margin-right: 4rem;
+    flex: 1;
+}
+
+
+
+
+
+/* EKSTRA DELER*/
+
 .burger{
     display: flex;
     align-items: flex-end;
@@ -187,6 +230,20 @@ header nav ul li:hover{
     height: 40px;
     margin: 30px;
 }
+.small-sale{
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    background-color: #553F33;
+    padding: 3rem;
+
+}
+
+
+
 .about-sofia2{
     display: flex;
     background-color: #553F33;
@@ -242,68 +299,33 @@ header nav ul li:hover{
 
 
 
-
+/* JUSTERING PÅ SCREEN STR */
 
 @media screen and (min-width:900px) {
     .burger{
          display: none;
     }
+    .small-sale{
+        display: none;
+   }
+
+
 }
 @media screen and (max-width:900px){
     header ul{
         display: none;
     }
+    .sale-card{
+        display: none;
+    }
+    .pil{
+        display: none;
+    }
+    
 }
-@media screen and (max-width:1300px){
-     .about-sofia{
-        display: none;
-     }
-}
-@media screen and (max-width:1000px){
-    .images-6{
-        display: none;
-    }
-    .dame-alene{
-        display: none;
-    }
-}
-@media screen and (max-width:800px){
-    .hjelp{
-        display: none;
-    }
-}
-@media screen and (max-width:1300px){
-    .kald-dame2{
-        display:none;
-    }
-    .baris-dame2{
-        display: none;
-    }
-    .name3{
-        display: none;
-    }
-    .name4{
-        display: none;
-    }
-    .price3{
-        display: none;
-    }
-    .price4{
-        display: none;
-    }
-}
-@media screen and (min-width:1300px) {
-    .about-sofia2{
-         display: none;
-    }
-}
-@media screen and (min-width:1200px){
-    .seeprices{
-        display: none;
-    }
-}
-@media screen and (max-width:1200px){
-    .sale-img{
-        display: none;
+@media screen and (min-width:1200px) {
+    .product-frames img{
+        display: flex;
+        justify-content: center;
     }
 }
